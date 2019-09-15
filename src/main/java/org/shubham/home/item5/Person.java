@@ -47,15 +47,5 @@ public class Person {
 	 * autoboxing.
 	 */
 
-	/**
-	 * 
-	 * The counterpoint to this item is Item 39 on defensive copying. Item 5 says,
-	 * “Don’t create a new object when you should reuse an existing one,” while Item
-	 * 39 says, “Don’t reuse an existing object when you should create a new one.”
-	 * Note that the penalty for reusing an object when defensive copying is called
-	 * for is far greater than the penalty for needlessly creating a duplicate
-	 * object. Failing to make defensive copies where required can lead to insidious
-	 * bugs and security holes; creating objects unnecessarily merely affects style
-	 * and performance.
-	 */
+	
 }

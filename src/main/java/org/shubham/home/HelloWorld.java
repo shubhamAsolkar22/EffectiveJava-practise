@@ -20,7 +20,7 @@ public class HelloWorld {
 		
 		Elvis b = Elvis.INSTANCE;
 		
-		System.out.println(a==b);
+		System.out.println(a==b);	
 	}
 	
 	private static void howFastStringInstanntiation() {
