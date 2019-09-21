@@ -1,6 +1,5 @@
 package org.shubham.home.item8;
 
-import javafx.scene.paint.Color;
 
 public class ColorPoint extends Point {
 	private final Color color;
@@ -21,9 +20,9 @@ public class ColorPoint extends Point {
 	// ... Remainder omitted
 	
 	public static void main(String[] args) {
-		ColorPoint p1 = new ColorPoint(1, 2,Color.ALICEBLUE);
-		ColorPoint p2 = new ColorPoint(1, 2,Color.ALICEBLUE);
-		ColorPoint p3 = new ColorPoint(1, 2,Color.ALICEBLUE);
+		ColorPoint p1 = new ColorPoint(1, 2,new Color("red"));
+		ColorPoint p2 = new ColorPoint(1, 2,new Color("red"));
+		ColorPoint p3 = new ColorPoint(1, 2,new Color("red"));
 		
 		System.out.println(p1.equals(p2));
 		System.out.println(p2.equals(p3));

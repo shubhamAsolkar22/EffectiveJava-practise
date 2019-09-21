@@ -19,4 +19,10 @@ public enum Elvis {
 	public void leaveTheBuilding() { 
 		System.out.println("Elvis left the building!");
 	}
+	
+	public static void main(String[] args) {
+		Elvis elvis = Elvis.INSTANCE;
+		
+		elvis.leaveTheBuilding();
+	}
 }
